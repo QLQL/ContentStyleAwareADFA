@@ -1,6 +1,6 @@
 # Content and Style Aware Audio-Driven Facial Animation
 
-This is the repository that contains source code for the [ContentStyleADFA](https://qingjuliu.github.io/ContentStyleADFA) website.
+This is the repository that contains source code for the [ContentStyleADFA](https://qlql.github.io/ContentStyleAwareADFA/) website.
 
 If you find our work useful, please cite:
 ```
