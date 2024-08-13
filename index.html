@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Content and Style Aware Audio-Driven Facial Animation">
+  <meta name="keywords" content="Content Reenactment, Style Transfer, Audio-Driven Facial Animation, Speech Synthesis">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Content and Style Aware Audio-Driven Facial Animation</title>
+
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+
+<body>
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">Content and Style Aware Audio-Driven Facial Animation</h1>
+            <div class="is-size-5 publication-authors">
+              <span class="author-block">
+                <a href="https://qingjuliu.github.io/">Qingju Liu</a>, </span>
+              <span class="author-block">
+                <a href="https://dblp.org/pid/58/4700.html">Hyeongwoo Kim</a>, </span>
+              <span class="author-block">
+                <a href="https://gauravbharaj.github.io/">Gaurav Bharaj</a></span>
+            </div>
+
+            <div class="is-size-5 publication-authors">
+              <span class="author-block"><a href="https://www.flawlessai.com/">Flawless AI</a></span>
+            </div>
+            <h1 style="font-size:24px;font-weight:bold">BMVC 2024</h1>
+
+            <div class="column has-text-centered">
+              <div class="publication-links">
+                <!-- PDF Link. -->
+                <!-- <span class="link-block">
+                  <a href="cvpr paper url"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                    </span>
+                    <span>Paper</span>
+                  </a>
+                </span> -->
+
+                <!--
+                <span class="link-block">
+                  <a href="https://arxiv.org/pdf/2405.19646"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                    </span>
+                    <span>arXiv</span>
+                  </a>
+                </span>
+                -->
+
+                <!-- Video Link. -->
+                <!-- span class="link-block">
+                  <a href="https://www.youtube.com/watch?v=drEB44IfZi0"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-youtube"></i>
+                    </span>
+                    <span>Video</span>
+                  </a>
+                </span -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="hero teaser" id="video">
+    <div class="container is-max-desktop">
+      <iframe width="960" height="540" src="./static/videos/Demo.mp4" title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay=1; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Overview</h2>
+        </div>
+      </div>
+      <div class="content">
+        <img src="./static/images/overview.jpg" width="1070">
+      </div>
+
+      <!-- Abstract. -->
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Abstract</h2>
+          <div class="content has-text-justified">
+            <p>
+                Audio-driven 3D facial animation has several virtual humans applications for content creation and editing. 
+              While several existing methods provide solutions for speech-driven animation, 
+              precise control over content (what) and style (how) of the final performance is still challenging.
+              We propose a novel approach that takes as input an audio, 
+              and the corresponding text to extract temporally-aligned content and disentangled style representations, 
+              in order to provide controls over 3D facial animation. Our method is trained in two stages, 
+              that evolves from audio prominent styles (how it sounds) to visual prominent styles (how it looks).
+              We leverage a high-resource audio dataset in stage I to learn styles that control speech generation in a self-supervised learning framework, 
+              and then fine-tune this model with low-resource audio/3D mesh pairs in stage II to control 3D vertex generation. 
+              We employ a non-autoregressive seq2seq formulation to model sentence-level dependencies, and better mouth articulations.
+              Our method provides flexibility that the style of a reference audio and the content of a source audio can be combined to enable audio style transfer. 
+              Similarly, the content can be modified, e.g. muting or swapping words, that enables style-preserving content editing.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!--/ Abstract. -->
+      <!--
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Poster</h2>
+        </div>
+      </div>
+      <div class="content" id="poster">
+        <img src="./static/images/poster.png" width="1070">
+      </div>
+      -->
+    </div>
+  </section>
+
+
+  <section class="section">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Baselines</h2>
+        </div>
+      </div>
+      <div class="container is-max-desktop columns is-centered ">
+        <iframe width="768" height="432" src="./static/videos/comparison_baselines_1_2.mp4"
+          frameborder="0"
+          allow="accelerometer; autoplay=1; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+      </div>
+
+      <div class="container is-max-desktop columns is-centered ">
+        <iframe width="768" height="432" src="./static/videos/comparison_baselines_3_4.mp4"
+          frameborder="0"
+          allow="accelerometer; autoplay=1; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+      </div>
+
+      <div class="container is-max-desktop columns is-centered ">
+        <iframe width="768" height="432" src="./static/videos/comparison_baselines_5.mp4"
+          frameborder="0"
+          allow="accelerometer; autoplay=1; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+      </div>
+
+    </div>
+  </section>
+
+
+  <section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">In The Wild Samples</h2>
+      </div>
+    </div>
+
+<!--    <div class="container is-max-desktop columns is-centered ">-->
+<!--      <video poster="" autoplay controls muted loop playsinline width="80%" height="auto">-->
+<!--        <source src="./static/videos/in_the_wild.mp4"-->
+<!--                type="video/mp4">-->
+<!--      </video>-->
+<!--    </div>-->
+
+    <div class="container is-max-desktop columns is-centered ">
+      <iframe width="600" height="600" src="./static/videos/in_the_wild.mp4"
+        frameborder="0"
+        allow="accelerometer; autoplay=1; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+    </div>
+
+  </div>
+</section>
+
+
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>@article{liu2024content_style_adfa,
+      title={Content and Style Aware Audio-Driven Facial Animation}, 
+      author={Qingju Liu and Hyeongwoo Kim and Gaurav Bharaj},
+      year={2024},
+      <!-- eprint={2405.19646},archivePrefix={arXiv},primaryClass={cs.CV} -->
+      }
+      </code></pre>
+      
+    </div>
+  </section>
+
+
+  <footer class="footer">
+    <div class="container">
+    </div>
+  </footer>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="content has-text-centered">
+        <a class="icon-link" href="https://arxiv.org/pdf/2405.19646">
+          <i class="fas fa-file-pdf"></i>
+        </a>
+        <div class="content">
+          This website is borrowed from <a href="https://github.com/nerfies/nerfies.github.io">nerfies</a>.
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
