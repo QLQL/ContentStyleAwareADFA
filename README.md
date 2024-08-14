@@ -8,6 +8,8 @@ If you find our work useful, please cite:
       title={Content and Style Aware Audio-Driven Facial Animation}, 
       author={Qingju Liu and Hyeongwoo Kim and Gaurav Bharaj},
       year={2024},
-      <!-- eprint={2405.19646},archivePrefix={arXiv},primaryClass={cs.CV} -->
+      eprint={2408.07005},
+      archivePrefix={arXiv},
+      primaryClass={cs.SD}
 }
 ```
